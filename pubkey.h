@@ -451,14 +451,14 @@ public:
 /// \brief Interface for message encoding method for public key signature schemes.
 /// \details DL_SignatureMessageEncodingMethod_SM2 provides interfaces
 ///   for message encoding method for SM2.
-class CRYPTOPP_DLL DL_SignatureMessageEncodingMethod_SM2 : public PK_DeterministicSignatureMessageEncodingMethod
-{
-public:
-	void ComputeMessageRepresentative(RandomNumberGenerator &rng,
-		const byte *recoverableMessage, size_t recoverableMessageLength,
-		HashTransformation &hash, HashIdentifier hashIdentifier, bool messageEmpty,
-		byte *representative, size_t representativeBitLength) const;
-};
+//class CRYPTOPP_DLL DL_SignatureMessageEncodingMethod_SM2 : public PK_DeterministicSignatureMessageEncodingMethod
+//{
+//public:
+//	void ComputeMessageRepresentative(RandomNumberGenerator &rng,
+//		const byte *recoverableMessage, size_t recoverableMessageLength,
+//		HashTransformation &hash, HashIdentifier hashIdentifier, bool messageEmpty,
+//		byte *representative, size_t representativeBitLength) const;
+//};
 
 /// \class PK_MessageAccumulatorBase
 /// \brief Interface for message encoding method for public key signature schemes.
